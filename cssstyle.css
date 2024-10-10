@@ -54,7 +54,7 @@ body{
 .banner-container{
     margin: 0 auto;
     /* border: 4px solid tomato; */
-    gap: 24px;
+    /* gap: 24px; */
     max-width: 1920px;
     justify-content: space-between;
     align-items: center;
@@ -69,8 +69,8 @@ body{
 .banner-container .banner-title{
     color: rgb(39, 39, 39);
     
-    font-size: 5rem;
-    font-weight: 800;
+    font-size: 80px;
+    font-weight: 800px;
 }
 .banner-container .banner-description{
     color: rgba(39, 39, 39, 0.6);
@@ -312,8 +312,57 @@ border: none;
 padding-left: 22px;
 margin-right: 16px;
 }
-/*Contact secttion design end */
+/*Contact section design end */
 
 
 /* <!--Main design end here--> */
+.footer{
+    max-width: 1920px;
+    height: 449px;
+    background-color: rgb(17, 16, 16);
+    justify-content: center;
+    align-items: center;
 
+}
+
+.footer-content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content .footer-title{
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 0%;
+}
+
+.footer-content .flower-text{
+    color: #E55473;
+}
+
+.footer .footer-description{
+    text-align: center;
+    max-width:625px;
+    height: 60px;;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0%
+    
+}
+.footer .footer-ending-text{
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0%
+
+}
+
+
+/*footer design start */
+
+/*footer design start */
