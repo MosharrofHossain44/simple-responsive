@@ -35,24 +35,133 @@
         
     }
     .img-card{
-        width: 364px;
-        height: 438px;
+        width: 350px;
+        height: 500px;
         border-radius: 300px 300px 0px 0px;
         position: relative;
         
     }
-    .image-6{
+    .image-6, .image-7{
         position: absolute;
-        top: 0px;
-        left: px;
+        bottom: 0;
+        left: -60px;
+    }
+    .image1{
+        position: absolute;
+        bottom: 0px;
+        left: -60px;
+        transform: rotate(28deg); 
     }
     .Flower-name{
-        margin-top: 32px;
-        display: flex;
-        justify-content: center;
-        font-size: 24px;
-        font-weight: 700;
-        color: rgb(39, 39, 39);
+        margin-top: 25px;
+        margin-bottom: 40px;
+        font-size: 20px;  
+    }
+
+    /* service container design*/
+    .service-containner{
+        width: 90%;
+        gap: 100px;
+    
+    }
+
+    /* Hot deal section */
+    .hot-deal-section{
+        max-width: 90%;
+        padding: 40px 0;
+        flex-direction: column-reverse;
+        gap: 80px;
+        margin-bottom: 128px;
+    }
+    
+    
+    .hot-deal-section .deal-content{
+        width: 90%;
+    }
+    
+    .hot-deal-section .title{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 25px;
+        font-weight: 800;
+    }
+    
+    .hot-deal-section span{
+        color: #E55473;
+    }
+    
+    .hot-deal-section .description{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+    
+    .hot-deal-section button{
+        font-size: 18px;
+    }
+
+    /* Instagram section */
+    .Samle{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .instagram .title{
+        font-size: 30px;
+    }
+    
+    .instagram-content .description{
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .Rectangle-imge img{
+        width: 90%;
+    }
+    /* Contact section */
+    .contact-section{
+        width: 90%;
+    }
+    
+    .contact-section .title{
+        font-size: 30px;
+    }
+    
+    .contact-section input{
+        width: 100%;
+        height: 55px;
+        /* padding-left: 22px; */
+        margin-bottom: 15px;
+    }
+    .contact-section .title{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .contact-section p{
+        font-size: 15px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .contact-section button{
+        width: 100%;
+    }
+
+    /* Footer section */
+    .footer{
+        width: 80%;
+        margin: 0 auto;
+        height: 449px;
+    }
+    .footer-content .footer-title{
+        font-size: 38px;
+    }
+    .footer .footer-description{
+        width:90%;
+        height: 60px;;
+        font-size: 15px;
+        
+    }
+    .footer .footer-ending-text{
+        font-size: 14px;
     
     }
 }
